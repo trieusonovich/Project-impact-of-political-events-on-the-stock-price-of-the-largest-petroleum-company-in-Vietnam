@@ -18,9 +18,6 @@ A financial econometrics project that applies **event study methodology** combin
 - [Key Results](#key-results)
 - [Statistical Tests](#statistical-tests)
 - [Limitations](#limitations)
-- [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-- [Tech Stack](#tech-stack)
 - [Author](#author)
 
 ---
@@ -143,7 +140,7 @@ One-sample t-test on AR and CAR (α = 0.05):
 
 **Possible next steps:** expand the event set, include more petroleum companies, compare Random Forest with XGBoost and neural networks, and apply the methodology to other sectors.
 
-Author
+## Author
 Nguyen Dinh Trieu
 Economics (Analytical Economics and Econometrics)
 
