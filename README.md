@@ -49,12 +49,6 @@ Geopolitical events such as armed conflicts, OPEC+ production decisions, trade w
 | | `Brent` — Brent crude oil price (USD/barrel) |
 | | `VNIndex` — Vietnam stock market index |
 
-**Why these variables?**
-
-- `USD/VND` reflects currency risk
-- `Brent` is the global benchmark for oil prices
-- `VN-Index` captures the overall state of the Vietnamese stock market
-
 ## Methodology
 
 **1. Data preparation**
@@ -145,7 +139,6 @@ One-sample t-test on AR and CAR (α = 0.05):
 
 - **Small test window.** Only 10 observations per event — results should be interpreted with caution.
 - **Univariate target, limited features.** The model uses only three exogenous variables; news sentiment, earnings, and other macro factors are ignored.
-- **Single company.** Results are specific to PLX and may not generalize to the whole sector.
 - **Model dependence.** AR/CAR values depend on the Random Forest's ability to generalize; a different model may yield different magnitudes.
 
 **Possible next steps:** expand the event set, include more petroleum companies, compare Random Forest with XGBoost and neural networks, and apply the methodology to other sectors.
@@ -153,4 +146,5 @@ One-sample t-test on AR and CAR (α = 0.05):
 Author
 Nguyen Dinh Trieu
 Economics (Analytical Economics and Econometrics)
+
 trieu31072004@gmail.com
